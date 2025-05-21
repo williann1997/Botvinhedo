@@ -173,4 +173,6 @@ async def on_ready():
    print(f'Bot conectado como {bot.user}')
    atualizar_ranking.start()
 
-bot.run("SEU_TOKEN_AQUI")
+import os
+
+bot.run(os.getenv("DISCORD_TOKEN"))
