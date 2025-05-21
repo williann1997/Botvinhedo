@@ -174,5 +174,8 @@ async def on_ready():
    atualizar_ranking.start()
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 bot.run(os.getenv("DISCORD_TOKEN"))
