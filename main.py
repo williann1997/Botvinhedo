@@ -167,9 +167,10 @@ async def on_ready():
         await canal_muni.purge(limit=5)
         await canal_muni.send(embed=embed, view=VendaMuniView())
 
-    @bot.event
+@bot.event
 async def on_ready():
-    print(f'Bot conectado como {bot.user}')
+ 
+   print(f'Bot conectado como {bot.user}')
     atualizar_ranking.start()
 
 bot.run("SEU_TOKEN_AQUI")
