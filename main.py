@@ -274,4 +274,4 @@ async def on_ready():
     atualizar_ranking.start()
 
 # Inicia o bot
-bot.run(os.getenv("DISCORD_TOKEN"))￼Enter
+bot.run(os.getenv("DISCORD_TOKEN")
